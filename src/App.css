@@ -1,0 +1,40 @@
+h1 {
+  color: #0A141C;
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+.date.vertical-timeline-element-date {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #199B7F;
+  opacity: 1;
+}
+
+@media only screen and (min-width: 1170px) {
+  .date.vertical-timeline-element-date {
+    font-size: 2rem !important;
+    color: black;
+  }
+
+}
+
+.card-action {
+  margin-top: 2rem;
+
+}
+
+.card-action a {
+  color: inherit;
+  text-decoration: none;
+  margin-right: 1rem;
+
+}
+
+.card-action a:hover {
+  color: #199B7F;
+}
+
+.vertical-timeline-element-content {
+  box-shadow: 0 3px #199B7F
+}
